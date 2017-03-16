@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+.wrapper {
+  width: 100%;
+}
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.4);
+}
+.nav-logo {
+  height: 31px;
+  width: 155px;
+  display: block;
+  background: url('./img/wot-logo-whitex2.svg');
+  background-size: 155px 31px;
+}
+.hamburger-menu {
+  height: 32px;
+  width: 32px;
+  display: block;
+  background: url('./img/preferences.png');
+  background-size: cover;
+}
+.nav-menu ul li {
+  display: none;
+  margin-left: 10px;
+}
+.main-header-container {
+  margin-top: 30px;
+  height: 250px;
+  width: 100%;
+  padding-top: 75px;
+  background: url('./img/wot-masthead-dark.jpg') no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 24px;
+  color: #fff;
+}
+.main-header-prefix {
+  text-align: center;
+  display: block;
+  flex-wrap: nowrap;
+  font-size:1em;
+}
+.main-header {
+  width: 80%;
+  text-align: center;
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-header-statement {
+  width: 60%;
+  text-align: center;
+  font-size: .75em;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.sol {
+  color: orange;
+}
+.ideas {
+  color: yellow;
+}
+.learn-more {
+  width: 80%;
+  bottom: 10px;
+  height: 35px;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: yellow;
+  border-radius: 15px;
+  border: none;
+}
+.works-header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #eee;
+}
+.intro {
+  width: 80%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 21px;
+  text-align: center;
+  display: block;
+  color: #555;
+}
+.works-icon {
+  width: 25%;
+  display: block;
+  align-self: center;
+}
+.here-works {
+  font-size: 32px;
+  text-align: center;
+  color: #aaa;
+}
+.here-works strong {
+  color: yellow;
+}
