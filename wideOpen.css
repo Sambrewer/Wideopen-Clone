@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-
+* {
+  font-family: 'Roboto Mono', monospace;
+}
 .wrapper {
   width: 100%;
 }
@@ -8,6 +10,7 @@
   position: fixed;
   display: flex;
   padding: 10px;
+  padding-right: 30px;
   margin-bottom: 10px;
   justify-content: space-between;
   background: rgba(0, 0, 0, 0.4);
@@ -28,6 +31,7 @@
 }
 .nav-menu ul li {
   display: none;
+  color: #ccc;
   margin-left: 10px;
 }
 .main-header-container {
@@ -69,25 +73,34 @@
   color: orange;
 }
 .ideas {
-  color: yellow;
+  color: #BDD436;
 }
 .learn-more {
   width: 80%;
   bottom: 10px;
   height: 35px;
   font-size: 1em;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  background-color: yellow;
+  background-color: #BDD436;
   border-radius: 15px;
   border: none;
+  color: #eee;
+}
+.learn-more:active {
+  outline: none;
+}
+.works {
+  padding-bottom: 50px;
 }
 .works-header {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   background: #eee;
+  padding-bottom: 50px;
 }
 .intro {
   width: 80%;
@@ -100,7 +113,8 @@
   color: #555;
 }
 .works-icon {
-  width: 25%;
+  width: auto;
+  height: auto;
   display: block;
   align-self: center;
 }
@@ -110,5 +124,79 @@
   color: #aaa;
 }
 .here-works strong {
-  color: yellow;
+  color: #BDD436;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 50px;;
+}
+.services-icon {
+  width: auto;
+  height: auto;
+  display: block;
+  align-self: center;
+}
+.page-link {
+  text-align: center;
+  width: 100%;
+  padding: auto;
+  color: #BDD436;
+  text-decoration: none;
+}
+.link-text {
+  width: 33%;
+  margin: auto;
+}
+.help-section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #ccc;
+  padding: 10px;
+  padding-top: 30px;
+}
+.help-header {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  margin: auto;
+}
+.helpbox {
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  background: #fff;
+  color: #111;
+}
+.footer {
+  font-size: .65em;
+}
+.chat {
+  height: 60px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: #BDD436;
+  color: #fff;
+  font-size: .9em;
+  border-radius: 5px;
+
+}
+@media (min-width: 750px) {
+  .hamburger-menu {
+    display: none;
+  }
+  .nav-menu ul li {
+    display: inline-block;ß
+  }
 }
